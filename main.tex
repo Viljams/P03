@@ -5,7 +5,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{biblatex}
-\usepackage[siunitx ,europeanresistors ,americaninductors]{circuitikz} %%elektr.shemam.
+\usepackage[europeanresistors ,americaninductors]{circuitikz} %%elektr.shemam.
 \usepackage{tikz} %%elektr.shemam
 \usepackage{pgfplots} %%funkciju zimesanai
 %%\pgfplotsset{compat=1.15} %%savietojamībai
@@ -92,7 +92,7 @@ Teorētiskā $U_R{}_2$ atkarība no $R_2$
 \section{Darbs ar GEDA programmām}
 \subsection{darbs ar gschem}
 \begin{figure}[h]
-\includegraphics{01.jpg}
+\includegraphics[width=10cm,height=10cm,keepaspectratio]{01.jpg}
 \caption{attēls, ir dota elektriskā shēma}
 %%\label{}
 \end{figure}
@@ -120,13 +120,13 @@ Linux vidē izmantojot QUCS (Quite Universal Circuit Simulator),
 tika uzzimēta attēlā redzamā shēma:
 
 \begin{figure}[H]
-\includegraphics{qucsShema.jpg}
+\includegraphics[width=12cm,height=12cm,keepaspectratio]{qucsShema.jpg}
 \caption{attēls, QUCS shēma}
 %%\label{}
 \end{figure}
 Iesakumā tika veikta DC simulācija, pieņemot, ka rezistora R2 vērtība ir nemainīga = 5 Ohm
 \begin{figure}[H]
-\includegraphics[width=300px,height=200px,keepaspectratio]{qucsDCsim.jpg}
+\includegraphics[width=14cm,height=14cm,keepaspectratio]{qucsDCsim.jpg}
 \caption{attēls, QUCS DC simulācija}
 %%\label{}
 \end{figure}
@@ -134,7 +134,7 @@ Shemā esošā rezistora R2 pretestības vērtībai tika piešķirts parametrs x
 Attēlā redzamais grafiks attēlo sakarību starp spriegumu punktā "Izeja" un Rezistora R2 vērtību (x).
 
 \begin{figure}[H]
-\includegraphics[width=300px,height=120px,keepaspectratio]{qucsSimulacija.jpg}
+\includegraphics[width=14cm,height=14cm,keepaspectratio]{qucsSimulacija.jpg}
 \caption{attēls, QUCS DC sweep simulācija, Sprieguma UR2 atkarība no pretestības R2}
 %%\label{}
 \end{figure}
